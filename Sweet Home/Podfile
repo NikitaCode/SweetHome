@@ -1,0 +1,11 @@
+platform :ios, '10.0'
+
+target 'Sweet Home' do
+
+  use_frameworks!
+pod 'CocoaMQTT'
+
+
+
+
+end
