@@ -1,11 +1,10 @@
-platform :ios, '10.0'
+platform :ios, '9.0'
+use_modular_headers!
 
 target 'Sweet Home' do
-
+  
+  # Pods for Sweet Home
   use_frameworks!
-pod 'CocoaMQTT'
-
-
-
+  pod 'CocoaMQTT'
 
 end
