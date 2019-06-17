@@ -6,5 +6,8 @@ target 'Sweet Home' do
   # Pods for Sweet Home
   use_frameworks!
   pod 'CocoaMQTT'
+  pod 'Firebase'
+  pod 'Firebase/Auth'
+
 
 end

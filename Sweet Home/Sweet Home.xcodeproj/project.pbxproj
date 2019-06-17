@@ -3,16 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		76134DE522B776C40071270C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76134DE422B776C40071270C /* AppDelegate.swift */; };
-		76134DE722B776C40071270C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76134DE622B776C40071270C /* ViewController.swift */; };
-		76134DEA22B776C40071270C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76134DE822B776C40071270C /* Main.storyboard */; };
-		76134DED22B776C40071270C /* Sweet_Home.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76134DEB22B776C40071270C /* Sweet_Home.xcdatamodeld */; };
-		76134DEF22B776C60071270C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76134DEE22B776C60071270C /* Assets.xcassets */; };
+		76134DE722B776C40071270C /* SweetHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76134DE622B776C40071270C /* SweetHomeViewController.swift */; };
 		76134DF222B776C60071270C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76134DF022B776C60071270C /* LaunchScreen.storyboard */; };
+		76E9D8E722B77948009AE329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E9D8E622B77948009AE329 /* Main.storyboard */; };
+		76E9D8E922B77A10009AE329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E9D8E822B77A10009AE329 /* Assets.xcassets */; };
+		76E9D8ED22B77B63009AE329 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76E9D8EC22B77B63009AE329 /* GoogleService-Info.plist */; };
+		76E9D8F322B78AD6009AE329 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E9D8F222B78AD6009AE329 /* WellcomeViewController.swift */; };
+		76E9D8F522B78AF8009AE329 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E9D8F422B78AF8009AE329 /* LoginViewController.swift */; };
 		C3DED8DD4BF2724DF38FB74C /* Pods_Sweet_Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3913A4F2ED8572B602FA51F5 /* Pods_Sweet_Home.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +24,14 @@
 		758C5BCCEF16541C41BA6C6E /* Pods-Sweet Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweet Home.debug.xcconfig"; path = "Target Support Files/Pods-Sweet Home/Pods-Sweet Home.debug.xcconfig"; sourceTree = "<group>"; };
 		76134DE122B776C40071270C /* Sweet Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweet Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76134DE422B776C40071270C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76134DE622B776C40071270C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		76134DE922B776C40071270C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		76134DEC22B776C40071270C /* Sweet_Home.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sweet_Home.xcdatamodel; sourceTree = "<group>"; };
-		76134DEE22B776C60071270C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76134DE622B776C40071270C /* SweetHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHomeViewController.swift; sourceTree = "<group>"; };
 		76134DF122B776C60071270C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76134DF322B776C60071270C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E9D8E622B77948009AE329 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		76E9D8E822B77A10009AE329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76E9D8EC22B77B63009AE329 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76E9D8F222B78AD6009AE329 /* WellcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeViewController.swift; sourceTree = "<group>"; };
+		76E9D8F422B78AF8009AE329 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				76134DE422B776C40071270C /* AppDelegate.swift */,
-				76134DE622B776C40071270C /* ViewController.swift */,
-				76134DE822B776C40071270C /* Main.storyboard */,
-				76134DEE22B776C60071270C /* Assets.xcassets */,
+				76134DE622B776C40071270C /* SweetHomeViewController.swift */,
+				76E9D8F422B78AF8009AE329 /* LoginViewController.swift */,
+				76E9D8F222B78AD6009AE329 /* WellcomeViewController.swift */,
+				76E9D8E622B77948009AE329 /* Main.storyboard */,
+				76E9D8E822B77A10009AE329 /* Assets.xcassets */,
 				76134DF022B776C60071270C /* LaunchScreen.storyboard */,
 				76134DF322B776C60071270C /* Info.plist */,
-				76134DEB22B776C40071270C /* Sweet_Home.xcdatamodeld */,
+				76E9D8EC22B77B63009AE329 /* GoogleService-Info.plist */,
 			);
 			path = "Sweet Home";
 			sourceTree = "<group>";
@@ -80,7 +86,6 @@
 				758C5BCCEF16541C41BA6C6E /* Pods-Sweet Home.debug.xcconfig */,
 				2E2E83BFC24458B0C6DB178D /* Pods-Sweet Home.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,9 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E9D8E722B77948009AE329 /* Main.storyboard in Resources */,
+				76E9D8ED22B77B63009AE329 /* GoogleService-Info.plist in Resources */,
+				76E9D8E922B77A10009AE329 /* Assets.xcassets in Resources */,
 				76134DF222B776C60071270C /* LaunchScreen.storyboard in Resources */,
-				76134DEF22B776C60071270C /* Assets.xcassets in Resources */,
-				76134DEA22B776C40071270C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,23 +213,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76134DE722B776C40071270C /* ViewController.swift in Sources */,
+				76E9D8F522B78AF8009AE329 /* LoginViewController.swift in Sources */,
+				76134DE722B776C40071270C /* SweetHomeViewController.swift in Sources */,
+				76E9D8F322B78AD6009AE329 /* WellcomeViewController.swift in Sources */,
 				76134DE522B776C40071270C /* AppDelegate.swift in Sources */,
-				76134DED22B776C40071270C /* Sweet_Home.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		76134DE822B776C40071270C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				76134DE922B776C40071270C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		76134DF022B776C60071270C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,19 +410,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		76134DEB22B776C40071270C /* Sweet_Home.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				76134DEC22B776C40071270C /* Sweet_Home.xcdatamodel */,
-			);
-			currentVersion = 76134DEC22B776C40071270C /* Sweet_Home.xcdatamodel */;
-			path = Sweet_Home.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 76134DD922B776C40071270C /* Project object */;
 }
