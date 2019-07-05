@@ -1,7 +1,4 @@
 PODS:
-  - CocoaAsyncSocket (7.6.3)
-  - CocoaMQTT (1.2.1):
-    - CocoaAsyncSocket (~> 7.6.3)
   - Firebase (6.2.0):
     - Firebase/Core (= 6.2.0)
   - Firebase/Auth (6.2.0):
@@ -60,6 +57,14 @@ PODS:
   - GoogleUtilities/UserDefaults (6.2.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.2.2)
+  - MQTTClient (0.15.2):
+    - MQTTClient/Core (= 0.15.2)
+  - MQTTClient/Core (0.15.2):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.2):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.2)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
@@ -67,14 +72,12 @@ PODS:
   - nanopb/encode (0.3.901)
 
 DEPENDENCIES:
-  - CocoaMQTT
   - Firebase
   - Firebase/Auth
+  - MQTTClient
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - CocoaAsyncSocket
-    - CocoaMQTT
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -84,11 +87,10 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - GTMSessionFetcher
+    - MQTTClient
     - nanopb
 
 SPEC CHECKSUMS:
-  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
-  CocoaMQTT: 0170e4b857e1db364813f0923c3b96496b78448c
   Firebase: 5965bac23e7fcb5fa6d926ed429c9ecef8a2014e
   FirebaseAnalytics: 629301c2b9925f3537d4093a17a72751ae5b7084
   FirebaseAuth: 80879f0e9f2c5f40686d5b42f6ccb3cd5dce78ea
@@ -98,8 +100,9 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 51d8d9ea48f0ca44484d29cfbdef976fbd4fc336
   GoogleUtilities: 996e0db07153674fd1b54b220fda3a3dc3547cba
   GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
 
-PODFILE CHECKSUM: 0723c9afecb7ab50ead90b5a6da2e0f7222a30a7
+PODFILE CHECKSUM: 2d8e900a14be2728e8bdae0ff9ed4507aab79f92
 
 COCOAPODS: 1.7.0
